@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Email notificacao Zabbix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin: 0; padding: 0;">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td>
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="522" style="border-collapse: collapse;">
+					<tr>
+						<td bgcolor="#01376B" style="padding: 1px 1px 1px 1px;">
+							<table align="center" border="0" cellpadding="0" cellspacing="0" width="520" style="border-collapse: collapse;">
+								<tr>
+									<td align="center" bgcolor="#E1E4E8" style="padding: 10px 0 5px 0;">
+										<table align="center" bgcolor="#01376B" width="490">
+											<tr>
+												<td style="padding: 3px 3px 3px 125px;">
+													<table border="0" style="border-collapse: collapse;"> 
+														<tr> 
+															<td bgcolor="#E12234" align="center" valign="center" style="padding: 0 13px 0 13px;">
+																<font color="white" face="verdana"SIZE="7">
+																	Z
+																</font> 
+															</td> 
+															<td bgcolor="#01376B" style="padding: 0 0 0 10px;"> 
+																<font face="verdana" size="6" color="#ffffff"> 
+																	DayHORC <br>
+																</font> 
+																<font face="verdana" size="4" color="#ffffff">
+																	Hospital de Olhos
+																</font>
+															</td>  
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>	
+								<tr>
+									<td bgcolor="#E1E4E8" style="padding: 5px 14px 12px 14px;">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+												<td bgcolor="#01376B" style="padding: 1px 1px 1px 1px;">
+													<table border="0" cellpadding="0" cellspacing="0" width="100%">
+														<tr>
+															<td bgcolor="#ffffff" style="padding: 5px 5px 5px 15px;">
+																<font color="#01376B">
+																<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																	<tr>
+																		<th align="left">
+																			Host:
+																		</th>
+																		<td style="width:65%;">
+																			{HOST.NAME}
+																		</td>
+																	</tr>
+																	<tr>
+																		<th align="left">
+																			Trigger:
+																		</th>
+																		<td style="width:65%;">
+																			{TRIGGER.NAME}
+																		</td>
+																	</tr>
+																	<tr>
+																		<th align="left">
+																			Valor do Evento:
+																		</th>
+																		<td>
+																			{ITEM.VALUE}
+																		</td>
+																	</tr>
+																	<tr>
+																		<th align="left">
+																			Status:
+																		</th>
+																		<td>
+																			{TRIGGER.STATUS}
+																		</td>
+																	</tr>
+																	<tr>
+																		<th align="left">
+																			Severidade:
+																		</th>
+																		<td>
+																			{TRIGGER.SEVERITY}
+																		</td>
+																	</tr>
+																	<tr>
+																		<th align="left">
+																			Event ID:
+																		</th>
+																		<td>
+																			{EVENT.ID}
+																		</td>
+																	</tr>
+																	<tr>
+																		<th align="left">
+																			Data do Evento:
+																		</th>
+																		<td>
+																			{EVENT.DATE}
+																		</td>
+																	</tr>
+																	<tr>
+																		<th align="left">
+																			Hora do Evento:
+																		</th>
+																		<td>
+																			{EVENT.TIME}
+																		</td>
+																	</tr>
+																</table>
+																</font>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<table bgcolor="#E1E4E8" border="0" cellpadding="0" cellspacing="0" width="100%">
+											<tr>
+												<td style="padding: 0 14px 10px 14px;">
+													<table border="0" cellpadding="0" cellspacing="0" width="100%">
+														<tr>
+															<td align="center" bgcolor="#01376B" style="padding: 10px 0 10px 0; color:#fff;">
+																Copyright&#xA9; 2016 DayHORC
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
