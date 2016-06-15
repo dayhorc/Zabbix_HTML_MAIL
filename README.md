@@ -63,6 +63,6 @@ Tipo: Script
 Nome Script: zabbix_email.sh
 Clique em Adicionar 
 
-Depois cole o contéudo do arquivo [email.html](email.html) na mensagem padrão da ação desejada.
+Depois cole o contéudo do arquivo [email.html](email.html) na mensagem padrão da ação desejada. Lembrese de alterar as cores e o logo para o da sua empresa.
 
 Caso deseje pode modificar o html para tirar informações desnecessárias na menssagem de recuperação
